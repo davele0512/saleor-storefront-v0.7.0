@@ -66,14 +66,14 @@ body {
     font-size: $small-font-size;
 
     th {
-      color: $gray-dark;
+      color: $orange;
       text-align: left;
       padding: $spacer $spacer / 2;
     }
 
     tr {
-      color: $base-font-color;
-      border-bottom: 1px solid $gray-light;
+      color: $orange;
+      border-bottom: 1px solid $light-orange;
     }
 
     td {

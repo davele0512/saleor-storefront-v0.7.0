@@ -28,6 +28,12 @@ const Page: React.FC<{
       {structuredData(shop)}
     </script>
     <div
+      className="home-page__info"
+    >
+      <p>0978 666 313 | 8h - 22h | Trương Công Định - Đà Lạt</p>
+    </div>
+
+    <div
       className="home-page__hero"
       style={
         backgroundImage
@@ -38,12 +44,12 @@ const Page: React.FC<{
       <div className="home-page__hero-text">
         <div>
           <span className="home-page__hero__title">
-            <h1>Final reduction</h1>
+            <h1>Đặc sản Đà Lạt</h1>
           </span>
         </div>
         <div>
           <span className="home-page__hero__title">
-            <h1>Up to 70% off sale</h1>
+            <h1>Nhào vô nhào vô</h1>
           </span>
         </div>
       </div>
@@ -57,7 +63,7 @@ const Page: React.FC<{
               categories.edges[0].node.name
             )}
           >
-            <Button>Shop sale</Button>
+            <Button>Mua Xực Ngay</Button>
           </Link>
         )}
       </div>
@@ -65,7 +71,7 @@ const Page: React.FC<{
     <ProductsFeatured />
     <div className="home-page__categories">
       <div className="container">
-        <h3>Shop by category</h3>
+        <h3>Mua theo danh mục</h3>
         <div className="home-page__categories__list">
           {categories.edges.map(({ node: category }) => (
             <div key={category.id}>

@@ -7,7 +7,7 @@
     background-size: cover;
     background-position: center;
     text-align: center;
-    padding: 12rem 0;
+    padding: 1.5rem 0;
 
     &-text {
       overflow: hidden;
@@ -17,7 +17,7 @@
       align-items: center;
       display: flex;
       flex-direction: column;
-      height: calc(100vh - 56px);
+      height: calc(100vh - 200px);
       justify-content: space-between;
       padding: $spacer;
 
@@ -32,8 +32,14 @@
       }
     }
 
+    &__info {
+      background-color: $light-orange;
+      display: block;
+      position: sticky;
+    }
+
     &__title {
-      background-color: $white;
+      background-color: transparentize($color: #ffffff, $amount: 1);
       display: inline-block;
       transform: skew(45deg);
       padding: $spacer $spacer * 3;
@@ -49,9 +55,9 @@
         transform: skew(-45deg);
         font-weight: $bold-font-weight;
         text-transform: uppercase;
-        color: $blue;
-        font-size: $h1-font-size;
-        font-weight: 900;
+        color: $white;
+        font-size: $h2-font-size;
+        font-weight: 700;
 
         @media (max-width: $small-screen) {
           font-size: $h4-font-size;
@@ -111,7 +117,7 @@
 
       &__image {
         width: 100%;
-        height: 30rem;
+        height: 20rem;
         background-size: cover;
         background-position: center;
         margin-bottom: 1rem;

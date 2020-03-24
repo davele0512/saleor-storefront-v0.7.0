@@ -45,7 +45,7 @@ const ProductsFeatured: React.FC<ProductsFeaturedProps> = ({ title }) => {
 };
 
 ProductsFeatured.defaultProps = {
-  title: "Featured",
+  title: "Sản phẩm bán chạy",
 };
 
 export default ProductsFeatured;

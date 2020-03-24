@@ -196,7 +196,7 @@ const MainMenu: React.FC = () => {
               >
                 <Media
                   query={{ minWidth: mediumScreen }}
-                  render={() => <span>Search</span>}
+                  render={() => <span>Tôi đang thèm</span>}
                 />
                 <ReactSVG path={searchImg} />
               </li>

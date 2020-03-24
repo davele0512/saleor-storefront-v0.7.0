@@ -3,8 +3,8 @@
 .main-menu {
   align-items: center;
   align-items: stretch;
-  background-color: $white;
-  border-bottom: 1px solid $gray-light;
+  background-color: transparentize($color: #fcc280, $amount: 0.5);
+  border-bottom: 1px solid $super-light-orange;
   display: flex;
   flex-direction: row;
   height: 3.55rem;
@@ -62,7 +62,7 @@
       transition: 0.3s;
 
       &:hover {
-        color: $turquoise;
+        color: $orange;
       }
     }
   }
@@ -109,7 +109,7 @@
 
     &:hover {
       svg * {
-        fill: $turquoise;
+        fill: $orange;
       }
     }
 
@@ -125,7 +125,7 @@
       position: absolute;
       top: -0.3rem;
       right: 0.6rem;
-      background-color: $blue;
+      background-color: $orange;
       border-radius: 1rem;
       padding: 0 0.3rem;
       min-width: 1rem;
@@ -140,7 +140,7 @@
 
   &__user {
     &--active * {
-      fill: $turquoise;
+      fill: $orange;
       fill-rule: inherit;
     }
   }
@@ -189,9 +189,9 @@
     }
 
     &:hover {
-      color: $turquoise;
+      color: $orange;
       svg * {
-        fill: $turquoise;
+        fill: $orange;
       }
     }
 
@@ -222,7 +222,7 @@
     }
 
     &__body {
-      background: $white;
+      background: transparentize($color: #f7e9d8, $amount: 0.8);
       border-top-color: $gray-light;
       border-top-style: solid;
       border-top-width: 1px;

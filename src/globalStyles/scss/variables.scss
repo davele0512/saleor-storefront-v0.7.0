@@ -15,6 +15,10 @@ $white: #fff;
 $blue-overlay: rgba($blue, 0.15);
 $autofillColor: rgb(250, 255, 189);
 $autofillColorSelected: rgb(232, 240, 254);
+$orange: #eb9e34;
+$dark-orange:  #ba5700;
+$light-orange: #fff0d6;
+$super-light-orange: #fff8ed;
 
 // typography
 $base-font-family: "Inter", sans-serif;
@@ -22,6 +26,7 @@ $base-font-size: 1rem; // 16px
 $small-font-size: 0.875rem; // 14px
 $base-line-height: 1.25rem; // 20px
 $h1-font-size: 4rem; // 64px
+$h2-font-size: 3rem; // px
 $h1-line-height: 1;
 $h3-font-size: 1.5rem; // 24px
 $h4-font-size: 1.125rem; // 18px
@@ -42,8 +47,8 @@ $button-box-shadow-clicked: -3px 3px 14px 0px rgba(129, 67, 67, 0.2);
 $button-padding: 0.9rem 3.7rem;
 $button-padding-small-screen: 0.9rem 1rem;
 $button-transition: 0.3s;
-$button-transform: skew(45deg);
-$button-content-transform: skew(-45deg);
+$button-transform: none;
+$button-content-transform: none;
 $button-text-transform: uppercase;
 $button-font-weight: $bold-font-weight;
 
